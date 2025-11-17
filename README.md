@@ -1,16 +1,37 @@
-# React + Vite
+# 🔐 Security Anomaly Detection Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based interactive dashboard designed to visualize, analyze, and detect anomalies in system logs. It supports log uploads, real-time streaming, severity-based analysis, KPI tracking, and CSV report generation. The system is built using **React + Vite** and provides an intuitive interface suitable for both students and cybersecurity practitioners.
 
-Currently, two official plugins are available:
+We generated synthetic activity logs using two different AI models, QWEN and Google Gemini, and applied predefined rules to ensure that each log entry had a clear, intended classification. These synthetic datasets allowed us to test whether the dashboard correctly detected anomalies and assigned appropriate risk levels.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Upload and parse log files (`.json`, `.txt`, `.csv`, `.log`)
+- Automatic anomaly detection (critical, high, medium)
+- Investigation Queue for suspicious events
+- KPI and severity metrics
+- Filtering by user, IP, and severity level
+- Dark/Light mode toggle
+- CSV report download
+- Assets folder for sample datasets
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Requirements
+
+Before running the project, ensure you have:
+
+- **Node.js v20 or higher**  
+  Download: https://nodejs.org/
+
+- **npm** (comes with Node)
+
+Check your versions:
+
+```bash
+node -v
+npm -v
+
+
