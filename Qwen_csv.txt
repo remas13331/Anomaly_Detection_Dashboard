@@ -1,0 +1,121 @@
+timestamp,log_level,source,message
+2025-11-16 09:00:01,Info,APP,User 'alice' logged in successfully
+2025-11-16 09:00:02,Error,AUTH,Failed login for 'admin' (invalid password)
+2025-11-16 09:00:03,Info,SYS,TrustedInstaller service started
+2025-11-16 09:00:04,Error,PROC,Process cmd.exe launched from C:\Users\Public\Temp
+2025-11-16 09:00:05,Info,NET,DNS query: internal-api.corp resolved
+2025-11-16 09:00:06,Error,EXFIL,Outbound transfer: 210MB to 31.140.60.160
+2025-11-16 09:00:07,Info,SVC,Scheduled task 'NightlyBackup' created by user 'bob'
+2025-11-16 09:00:08,Error,AUTH,14 failed logins across 12 accounts in 3 minutes
+2025-11-16 09:00:09,Info,APP,Certificate 'web.corp' expires in 10 days
+2025-11-16 09:00:10,Error,PROC,powershell.exe executed from AppData\Local\Temp\script.ps1
+2025-11-16 09:00:11,Info,NET,HTTPS connection to api.payment-gateway.com
+2025-11-16 09:00:12,Info,SYS,Windows Defender signature update completed
+2025-11-16 09:00:13,Error,PROC,wmic.exe launched with process call create from temp directory
+2025-11-16 09:00:14,Info,APP,User 'charlie' accessed HR records
+2025-11-16 09:00:15,Error,EXFIL,180MB data sent to 125.225.149.40
+2025-11-16 09:00:16,Info,SYS,Group Policy refreshed successfully
+2025-11-16 09:00:17,Error,AUTH,Login from new country: Russia (IP 85.171.186.176)
+2025-11-16 09:00:18,Info,APP,File encrypted via BitLocker
+2025-11-16 09:00:19,Error,PROC,python.exe running from Downloads folder
+2025-11-16 09:00:20,Info,NET,Internal NTP sync with time.corp
+2025-11-16 09:00:21,Info,SYS,Service 'PrintSpooler' restarted
+2025-11-16 09:00:22,Error,EXFIL,250MB outbound to 119.176.79.132
+2025-11-16 09:00:23,Info,APP,User changed password successfully
+2025-11-16 09:00:24,Error,AUTH,5 failed logins for user 'david' in 30 seconds
+2025-11-16 09:00:25,Info,NET,LAN traffic normal
+2025-11-16 09:00:26,Error,PROC,certutil.exe used to decode file in Temp
+2025-11-16 09:00:27,Info,SYS,Windows Update downloaded (KB5034441)
+2025-11-16 09:00:28,Error,EXFIL,310MB transfer to 177.127.105.170
+2025-11-16 09:00:29,Info,APP,Session timeout for inactive user
+2025-11-16 09:00:30,Error,AUTH,Successful login after 9 failed attempts (user 'eve')
+2025-11-16 09:00:31,Info,NET,DNS tunneling attempt blocked (non-existent domain query)
+2025-11-16 09:00:32,Info,SYS,Registry backup completed
+2025-11-16 09:00:33,Error,PROC,mshta.exe executed from email attachment path
+2025-11-16 09:00:34,Info,APP,Multi-factor authentication completed
+2025-11-16 09:00:35,Error,EXFIL,195MB sent to 35.48.162.150
+2025-11-16 09:00:36,Info,SYS,Event log archived
+2025-11-16 09:00:37,Error,AUTH,Password spray detected: same password used on 11 accounts
+2025-11-16 09:00:38,Info,NET,Connection to cloud storage (onedrive.corp)
+2025-11-16 09:00:39,Info,APP,User exported 50 customer records
+2025-11-16 09:00:40,Error,PROC,rundll32.exe loading script from Temp
+2025-11-16 09:00:41,Info,SYS,Disk cleanup finished
+2025-11-16 09:00:42,Error,EXFIL,400MB data exfiltration to 53.124.103.56
+2025-11-16 09:00:43,Info,APP,New device registered: iPhone 15 (iOS 18.1)
+2025-11-16 09:00:44,Error,AUTH,Account lockout for user 'frank'
+2025-11-16 09:00:45,Info,NET,Internal database query executed
+2025-11-16 09:00:46,Info,SYS,Backup completed successfully
+2025-11-16 09:00:47,Error,PROC,powershell.exe with encoded command from AppData
+2025-11-16 09:00:48,Info,APP,User viewed financial dashboard
+2025-11-16 09:00:49,Error,EXFIL,220MB outbound to 175.254.19.146
+2025-11-16 09:00:50,Info,SYS,Service 'DHCP Client' running
+2025-11-16 09:00:51,Error,AUTH,Login from unrecognized browser (Brave 1.68)
+2025-11-16 09:00:52,Info,NET,Email sent via SMTP gateway
+2025-11-16 09:00:53,Info,APP,Certificate validation passed
+2025-11-16 09:00:54,Error,PROC,cmd.exe spawned by Word document macro
+2025-11-16 09:00:55,Info,SYS,System idle
+2025-11-16 09:00:56,Error,EXFIL,170MB transfer to 45.89.123.45
+2025-11-16 09:00:57,Info,APP,User downloaded report.pdf
+2025-11-16 09:00:58,Error,AUTH,Repeated failed logins from single IP
+2025-11-16 09:00:59,Info,NET,Intranet portal accessed
+2025-11-16 09:01:00,Info,SYS,Windows Defender real-time protection active
+2025-11-16 09:01:01,Error,PROC,wscript.exe running vbs from Temp
+2025-11-16 09:01:02,Info,APP,User session extended
+2025-11-16 09:01:03,Error,EXFIL,280MB sent to 91.234.56.78
+2025-11-16 09:01:04,Info,SYS,Driver update installed
+2025-11-16 09:01:05,Error,AUTH,SSO token validation failed
+2025-11-16 09:01:06,Info,NET,Standard software update check
+2025-11-16 09:01:07,Info,APP,File shared internally
+2025-11-16 09:01:08,Error,PROC,powershell.exe with -EncodedCommand from Downloads
+2025-11-16 09:01:09,Info,SYS,Time synchronized
+2025-11-16 09:01:10,Error,EXFIL,320MB outbound to 185.143.223.10
+2025-11-16 09:01:11,Info,APP,User logged out
+2025-11-16 09:01:12,Error,AUTH,Brute-force detected on RDP port
+2025-11-16 09:01:13,Info,NET,Internal API call successful
+2025-11-16 09:01:14,Info,SYS,Memory usage normal
+2025-11-16 09:01:15,Error,PROC,regsvr32.exe loading remote script
+2025-11-16 09:01:16,Info,APP,Password reset link emailed
+2025-11-16 09:01:17,Error,EXFIL,160MB transfer to 203.0.113.25
+2025-11-16 09:01:18,Info,SYS,Event log cleared by admin
+2025-11-16 09:01:19,Error,AUTH,Login from Tor exit node IP
+2025-11-16 09:01:20,Info,NET,Cloud sync complete
+2025-11-16 09:01:21,Info,APP,User profile updated
+2025-11-16 09:01:22,Error,PROC,msbuild.exe compiling suspicious .csproj from Temp
+2025-11-16 09:01:23,Info,SYS,Firewall rule added
+2025-11-16 09:01:24,Error,EXFIL,290MB sent to 198.51.100.77
+2025-11-16 09:01:25,Info,APP,Two-factor code verified
+2025-11-16 09:01:26,Error,AUTH,Account enumeration attempt via password reset
+2025-11-16 09:01:27,Info,NET,DNS request for corp.local
+2025-11-16 09:01:28,Info,SYS,Backup started
+2025-11-16 09:01:29,Error,PROC,powershell.exe bypassing execution policy from Temp
+2025-11-16 09:01:30,Info,APP,Document signed digitally
+2025-11-16 09:01:31,Error,EXFIL,350MB outbound to 192.0.2.189
+2025-11-16 09:01:32,Info,SYS,Updates pending reboot
+2025-11-16 09:01:33,Error,AUTH,Session hijack attempt detected
+2025-11-16 09:01:34,Info,NET,Internal chat message sent
+2025-11-16 09:01:35,Info,APP,User enrolled in training module
+2025-11-16 09:01:36,Error,PROC,cmd.exe downloading file via certutil
+2025-11-16 09:01:37,Info,SYS,Hard drive health OK
+2025-11-16 09:01:38,Error,EXFIL,200MB transfer to 104.28.42.100
+2025-11-16 09:01:39,Info,APP,User accessed admin console
+2025-11-16 09:01:40,Error,AUTH,Password reuse violation
+2025-11-16 09:01:41,Info,NET,Standard web browsing activity
+2025-11-16 09:01:42,Info,SYS,Service 'Windows Update' paused
+2025-11-16 09:01:43,Error,PROC,python.exe establishing reverse shell (simulated)
+2025-11-16 09:01:44,Info,APP,Report generated
+2025-11-16 09:01:45,Error,EXFIL,270MB sent to 167.99.200.150
+2025-11-16 09:01:46,Info,SYS,User profile loaded
+2025-11-16 09:01:47,Error,AUTH,Failed MFA push notification
+2025-11-16 09:01:48,Info,NET,File upload to internal portal
+2025-11-16 09:01:49,Info,APP,Customer ticket updated
+2025-11-16 09:01:50,Error,PROC,powershell.exe with AMSI bypass from Temp
+2025-11-16 09:01:51,Info,SYS,System uptime: 15 days
+2025-11-16 09:01:52,Error,EXFIL,330MB outbound to 138.68.10.200
+2025-11-16 09:01:53,Info,APP,User changed security question
+2025-11-16 09:01:54,Error,AUTH,Login from blacklisted IP range
+2025-11-16 09:01:55,Info,NET,Database backup transferred internally
+2025-11-16 09:01:56,Info,SYS,Log rotation completed
+2025-11-16 09:01:57,Error,PROC,wmic.exe listing user accounts
+2025-11-16 09:01:58,Info,APP,New API key generated
+2025-11-16 09:01:59,Error,EXFIL,185MB transfer to 45.33.32.156
+2025-11-16 09:02:00,Info,SYS,All services operational
